@@ -1,0 +1,98 @@
+//            PLC_CON = SOL_P0;
+//            SOL_CH1 = SOL_P0;
+//            SOL_CH2 = SOL_P0;
+//            SOL_CH3 = SOL_P0;
+//            SOL_CH4 = SOL_P0;
+//            SOL_CH5 = SOL_P0;
+//            SOL_CH6 = SOL_P0;
+//            SOL_CH7 = SOL_P0;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P1;
+//            SOL_CH1 = SOL_P1;
+//            SOL_CH2 = SOL_P1;
+//            SOL_CH3 = SOL_P1;
+//            SOL_CH4 = SOL_P1;
+//            SOL_CH5 = SOL_P1;
+//            SOL_CH6 = SOL_P1;
+//            SOL_CH7 = SOL_P1;
+//            LED_BUZ = 0x40;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P2;
+//            SOL_CH1 = SOL_P2;
+//            SOL_CH2 = SOL_P2;
+//            SOL_CH3 = SOL_P2;
+//            SOL_CH4 = SOL_P2;
+//            SOL_CH5 = SOL_P2;
+//            SOL_CH6 = SOL_P2;
+//            SOL_CH7 = SOL_P2;
+//            LED_BUZ = 0x20;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P3;
+//            SOL_CH1 = SOL_P3;
+//            SOL_CH2 = SOL_P3;
+//            SOL_CH3 = SOL_P3;
+//            SOL_CH4 = SOL_P3;
+//            SOL_CH5 = SOL_P3;
+//            SOL_CH6 = SOL_P3;
+//            SOL_CH7 = SOL_P3;
+//            LED_BUZ = 0x10;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P4;
+//            SOL_CH1 = SOL_P4;
+//            SOL_CH2 = SOL_P4;
+//            SOL_CH3 = SOL_P4;
+//            SOL_CH4 = SOL_P4;
+//            SOL_CH5 = SOL_P4;
+//            SOL_CH6 = SOL_P4;
+//            SOL_CH7 = SOL_P4;
+//            LED_BUZ = 0x08;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P5;
+//            SOL_CH1 = SOL_P5;
+//            SOL_CH2 = SOL_P5;
+//            SOL_CH3 = SOL_P5;
+//            SOL_CH4 = SOL_P5;
+//            SOL_CH5 = SOL_P5;
+//            SOL_CH6 = SOL_P5;
+//            SOL_CH7 = SOL_P5;
+//            LED_BUZ = 0x04;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P6;
+//            SOL_CH1 = SOL_P6;
+//            SOL_CH2 = SOL_P6;
+//            SOL_CH3 = SOL_P6;
+//            SOL_CH4 = SOL_P6;
+//            SOL_CH5 = SOL_P6;
+//            SOL_CH6 = SOL_P6;
+//            SOL_CH7 = SOL_P6;
+//            LED_BUZ = 0x02;
+//            delay_ms(200);
+//
+//            PLC_CON = SOL_P7;
+//            SOL_CH1 = SOL_P7;
+//            SOL_CH2 = SOL_P7;
+//            SOL_CH3 = SOL_P7;
+//            SOL_CH4 = SOL_P7;
+//            SOL_CH5 = SOL_P7;
+//            SOL_CH6 = SOL_P7;
+//            SOL_CH7 = SOL_P7;
+//            LED_BUZ = 0x01;
+//            delay_ms(200);
+//
+//            PLC_CON = 0xff;
+//            SOL_CH1 = 0xff;
+//            SOL_CH2 = 0xff;
+//            SOL_CH3 = 0xff;
+//            SOL_CH4 = 0xff;
+//            SOL_CH5 = 0xff;
+//            SOL_CH6 = 0xff;
+//            SOL_CH7 = 0xff;
+//            LED_BUZ = 0x7f;
+//            delay_ms(200);
+//

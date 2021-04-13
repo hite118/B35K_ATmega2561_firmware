@@ -1,0 +1,85 @@
+        if(RxBuffer[0] == 0x01)
+        {
+            for(lcnt = 0; lcnt < 8; lcnt++)
+            {
+                switch(lcnt)
+                {
+                    case 0:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          PLC_CON &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+
+                    break;
+
+                    case 1:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH1 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+
+                    case 2:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH2 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+
+                    case 3:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH3 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+
+                    case 4:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH4 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+
+                    case 5:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH5 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+
+                    case 6:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH6 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+
+                    case 7:
+                        for(jcnt = 0; jcnt <8; jcnt++)
+                        {
+                          SOL_CH7 &= do_value[jcnt];
+                          delay_ms(200);
+                        }
+                    break;
+                    delay_ms(200);
+                }
+            }
+
+            PLC_CON = 0;
+            SOL_CH1 = 0;
+            SOL_CH2 = 0;
+            SOL_CH3 = 0;
+            SOL_CH4 = 0;
+            SOL_CH5 = 0;
+            SOL_CH6 = 0;
+            SOL_CH7 = 0;
+            LED_BUZ = 0;
+            delay_ms(500);
+            TX_DATA(RxBuffer[0]);
